@@ -11,10 +11,10 @@ namespace appConsolaHolaMundoCS
     static void Main(string[] args)
     {
       Console.WriteLine("Hola Mundo!!");
-      //Sumar
+      //Dividir
       int a = 10;
       int b = 3;
-      int c = a / b;
+      double c = a / (b * 1.0);
       Console.WriteLine(a + "/" + b + "=" + c);
 
       Console.ReadKey();
